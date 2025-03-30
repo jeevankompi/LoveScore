@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Score Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Love Score Calculator</h1>
+        <input type="text" id="name1" placeholder="Enter first name">
+        <input type="text" id="name2" placeholder="Enter second name">
+        <button onclick="calculateLove()">Calculate Love Score</button>
+        <p id="result"></p>
+        <div id="love-bar-container">
+            <div id="love-bar"></div>
+        </div>
+        <p id="compatibility-message"></p>
+        <p id="ship-name"></p>
+        <p id="love-quote"></p>
+        <button onclick="resetForm()" id="reset-btn">Try Again</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

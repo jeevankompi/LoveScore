@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffcccb;
+    padding: 50px;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: auto;
+}
+h1 {
+    color: #ff6b6b;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #ff4040;
+}
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d63333;
+}
+#love-bar-container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 10px;
+}
+#love-bar {
+    height: 10px;
+    width: 0%;
+    background-color: #ff6b6b;
+    border-radius: 5px;
+    transition: width 1s;
+}
+#compatibility-message, #ship-name, #love-quote {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+}
+#reset-btn {
+    display: none;
+}
